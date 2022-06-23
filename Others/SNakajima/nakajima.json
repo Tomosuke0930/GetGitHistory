@@ -1,0 +1,98 @@
+{
+  "sha": "d233eedb610e693c46e125676f74ca382239a1ac",
+  "node_id": "MDY6Q29tbWl0Mzc2ODU1OmQyMzNlZWRiNjEwZTY5M2M0NmUxMjU2NzZmNzRjYTM4MjIzOWExYWM=",
+  "commit": {
+    "author": {
+      "name": "snakajima",
+      "email": "satoshi.nakajima@gmail.com",
+      "date": "2011-01-20T21:45:14Z"
+    },
+    "committer": {
+      "name": "snakajima",
+      "email": "satoshi.nakajima@gmail.com",
+      "date": "2011-01-20T21:45:14Z"
+    },
+    "message": "Adding routing namespace support (for multiple entry points)\r\nAdding is_development() function\r\nAdding transactional decorator",
+    "tree": {
+      "sha": "a910db25a2c7c99bc10da3751ecc4b53a59ccb9a",
+      "url": "https://api.github.com/repos/snakajima/gdispatch/git/trees/a910db25a2c7c99bc10da3751ecc4b53a59ccb9a"
+    },
+    "url": "https://api.github.com/repos/snakajima/gdispatch/git/commits/d233eedb610e693c46e125676f74ca382239a1ac",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/snakajima/gdispatch/commits/d233eedb610e693c46e125676f74ca382239a1ac",
+  "html_url": "https://github.com/snakajima/gdispatch/commit/d233eedb610e693c46e125676f74ca382239a1ac",
+  "comments_url": "https://api.github.com/repos/snakajima/gdispatch/commits/d233eedb610e693c46e125676f74ca382239a1ac/comments",
+  "author": {
+    "login": "snakajima",
+    "id": 139827,
+    "node_id": "MDQ6VXNlcjEzOTgyNw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/139827?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/snakajima",
+    "html_url": "https://github.com/snakajima",
+    "followers_url": "https://api.github.com/users/snakajima/followers",
+    "following_url": "https://api.github.com/users/snakajima/following{/other_user}",
+    "gists_url": "https://api.github.com/users/snakajima/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/snakajima/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/snakajima/subscriptions",
+    "organizations_url": "https://api.github.com/users/snakajima/orgs",
+    "repos_url": "https://api.github.com/users/snakajima/repos",
+    "events_url": "https://api.github.com/users/snakajima/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/snakajima/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "snakajima",
+    "id": 139827,
+    "node_id": "MDQ6VXNlcjEzOTgyNw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/139827?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/snakajima",
+    "html_url": "https://github.com/snakajima",
+    "followers_url": "https://api.github.com/users/snakajima/followers",
+    "following_url": "https://api.github.com/users/snakajima/following{/other_user}",
+    "gists_url": "https://api.github.com/users/snakajima/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/snakajima/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/snakajima/subscriptions",
+    "organizations_url": "https://api.github.com/users/snakajima/orgs",
+    "repos_url": "https://api.github.com/users/snakajima/repos",
+    "events_url": "https://api.github.com/users/snakajima/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/snakajima/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2e01eff9a6721b7d3c9f7f2a18a5b0e90811c131",
+      "url": "https://api.github.com/repos/snakajima/gdispatch/commits/2e01eff9a6721b7d3c9f7f2a18a5b0e90811c131",
+      "html_url": "https://github.com/snakajima/gdispatch/commit/2e01eff9a6721b7d3c9f7f2a18a5b0e90811c131"
+    }
+  ],
+  "stats": {
+    "total": 55,
+    "additions": 32,
+    "deletions": 23
+  },
+  "files": [
+    {
+      "sha": "085a05323febd924a117729bcc5c480623f47dfd",
+      "filename": "gdispatch.py",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 23,
+      "changes": 55,
+      "blob_url": "https://github.com/snakajima/gdispatch/blob/d233eedb610e693c46e125676f74ca382239a1ac/gdispatch.py",
+      "raw_url": "https://github.com/snakajima/gdispatch/raw/d233eedb610e693c46e125676f74ca382239a1ac/gdispatch.py",
+      "contents_url": "https://api.github.com/repos/snakajima/gdispatch/contents/gdispatch.py?ref=d233eedb610e693c46e125676f74ca382239a1ac",
+      "patch": "@@ -2,7 +2,7 @@\n #\n # Hosted at: http://github.com/snakajima/gdispatch\n #\n-# Copyright (c) 2009 Satoshi Nakajima\n+# Copyright (c) 2009, 2010, 2011 Satoshi Nakajima\n # \n # Permission is hereby granted, free of charge, to any person obtaining a copy\n # of this software and associated documentation files (the \"Software\"), to deal\n@@ -22,8 +22,12 @@\n # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n # THE SOFTWARE.\n \n+import logging\n+import os\n+\n from google.appengine.ext import webapp\n from google.appengine.ext.webapp.util import run_wsgi_app\n+from google.appengine.ext import db\n \n def memoize(original_func):\n     \"\"\" This decorator memorize cached data in global memory \"\"\"\n@@ -37,40 +41,45 @@ def decorated_func(*args):\n     return decorated_func\n \n @memoize\n-def _routing_functions():\n+def is_development():\n+    return os.environ['SERVER_SOFTWARE'].startswith('Development/')\n+\n+def transactional(original_func):\n+    def decorated_func(*args, **kwargs):\n+        return db.run_in_transaction(original_func, *args, **kwargs)\n+    return decorated_func\n+\n+def kwargs(original_func):\n+    \"\"\" This decorator allows RequestHandlers to receive get/post parameters as named arguments \"\"\"\n+    import inspect\n+    argspec = inspect.getargspec(original_func) \n+    args = tuple(argspec[0][1:])\n+    def decorated_func(rh):\n+        kwargs = dict([(arg, rh.request.get(arg)) for arg in args])\n+        return original_func(rh, **kwargs)\n+    return decorated_func\n+\n+@memoize\n+def _routing_functions(namespace):\n     \"\"\" List of routing functions. Singleton. \"\"\"\n     return []\n-\n-def route(callback_func):\n+    \n+def route(callback_func, namespace=None):\n     \"\"\" This simply registers a routing function, which returns a \n         (url, request_handler_class) tuple.\n         Later, we call each function to generate the URL mapping.\n         This defered registration mechanism allows developers to put\n         dispatch.route() BEFORE the definition of the RequestHandler\n         class.\n     \"\"\"\n-    _routing_functions().append(callback_func)\n+    _routing_functions(namespace).append(callback_func)\n \n @memoize\n-def _url_mapping():\n+def _url_mapping(namespace):\n     \"\"\" The list of (url, request_handler_class) tuples. Singleton. \"\"\"\n-    return [f() for f in _routing_functions()]\n+    return [f() for f in _routing_functions(namespace)]\n     \n-def run(debug=True):\n-    application = webapp.WSGIApplication(_url_mapping(), debug=debug)\n+def run(namespace=None):\n+    application = webapp.WSGIApplication(_url_mapping(namespace), debug=True)\n     run_wsgi_app(application)\n \n-def get_application(debug=True):\n-    \"\"\" For unit testing \"\"\"\n-    return webapp.WSGIApplication(_url_mapping(), debug=debug)\n-\n-def kwargs(original_func):\n-    \"\"\" This decorator allows RequestHandlers to receive get/post parameters as named arguments \"\"\"\n-    import inspect\n-    argspec = inspect.getargspec(original_func) \n-    args = tuple(argspec[0][1:])\n-    def decorated_func(rh):\n-        kwargs = dict([(arg, rh.request.get(arg)) for arg in args])\n-        return original_func(rh, **kwargs)\n-    return decorated_func\n-"
+    }
+  ]
+}

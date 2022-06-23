@@ -1,0 +1,12 @@
+"language": "TypeScript",
+"created_at": "2020-04-29T20:27:00Z",
+  "user": {
+    "login": "danrobinson",
+
+
+必要な情報
+・いつpullされたやつなのか？
+・なんの言語を使っているのか？
+・本当にUserはその人だったのか？
+
+複数Userでも大丈夫だろうか？
