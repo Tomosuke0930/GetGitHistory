@@ -1,0 +1,92 @@
+{
+  "sha": "fa1d6d7159248c2f4e90c238c0a82f508e00adf7",
+  "node_id": "C_kwDOGkWOi9oAKGZhMWQ2ZDcxNTkyNDhjMmY0ZTkwYzIzOGMwYTgyZjUwOGUwMGFkZjc",
+  "commit": {
+    "author": {
+      "name": "Tomosuke0930",
+      "email": "84496536+Tomosuke0930@users.noreply.github.com",
+      "date": "2021-12-22T07:07:06Z"
+    },
+    "committer": {
+      "name": "Tomosuke0930",
+      "email": "84496536+Tomosuke0930@users.noreply.github.com",
+      "date": "2021-12-22T07:07:06Z"
+    },
+    "message": "first commit",
+    "tree": {
+      "sha": "12cbbc01b4657e56223117da1672b95bf383bbbf",
+      "url": "https://api.github.com/repos/Tomosuke0930/SimpleAuctionByMoralisWeb3/git/trees/12cbbc01b4657e56223117da1672b95bf383bbbf"
+    },
+    "url": "https://api.github.com/repos/Tomosuke0930/SimpleAuctionByMoralisWeb3/git/commits/fa1d6d7159248c2f4e90c238c0a82f508e00adf7",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/Tomosuke0930/SimpleAuctionByMoralisWeb3/commits/fa1d6d7159248c2f4e90c238c0a82f508e00adf7",
+  "html_url": "https://github.com/Tomosuke0930/SimpleAuctionByMoralisWeb3/commit/fa1d6d7159248c2f4e90c238c0a82f508e00adf7",
+  "comments_url": "https://api.github.com/repos/Tomosuke0930/SimpleAuctionByMoralisWeb3/commits/fa1d6d7159248c2f4e90c238c0a82f508e00adf7/comments",
+  "author": {
+    "login": "Tomosuke0930",
+    "id": 84496536,
+    "node_id": "MDQ6VXNlcjg0NDk2NTM2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/84496536?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Tomosuke0930",
+    "html_url": "https://github.com/Tomosuke0930",
+    "followers_url": "https://api.github.com/users/Tomosuke0930/followers",
+    "following_url": "https://api.github.com/users/Tomosuke0930/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Tomosuke0930/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Tomosuke0930/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Tomosuke0930/subscriptions",
+    "organizations_url": "https://api.github.com/users/Tomosuke0930/orgs",
+    "repos_url": "https://api.github.com/users/Tomosuke0930/repos",
+    "events_url": "https://api.github.com/users/Tomosuke0930/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Tomosuke0930/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "Tomosuke0930",
+    "id": 84496536,
+    "node_id": "MDQ6VXNlcjg0NDk2NTM2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/84496536?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Tomosuke0930",
+    "html_url": "https://github.com/Tomosuke0930",
+    "followers_url": "https://api.github.com/users/Tomosuke0930/followers",
+    "following_url": "https://api.github.com/users/Tomosuke0930/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Tomosuke0930/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Tomosuke0930/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Tomosuke0930/subscriptions",
+    "organizations_url": "https://api.github.com/users/Tomosuke0930/orgs",
+    "repos_url": "https://api.github.com/users/Tomosuke0930/repos",
+    "events_url": "https://api.github.com/users/Tomosuke0930/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Tomosuke0930/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [],
+  "stats": {
+    "total": 83,
+    "additions": 83,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "81de9b715ac053990898b5f7849c1dbab56620bf",
+      "filename": "SimpleAuction.sol",
+      "status": "added",
+      "additions": 83,
+      "deletions": 0,
+      "changes": 83,
+      "blob_url": "https://github.com/Tomosuke0930/SimpleAuctionByMoralisWeb3/blob/fa1d6d7159248c2f4e90c238c0a82f508e00adf7/SimpleAuction.sol",
+      "raw_url": "https://github.com/Tomosuke0930/SimpleAuctionByMoralisWeb3/raw/fa1d6d7159248c2f4e90c238c0a82f508e00adf7/SimpleAuction.sol",
+      "contents_url": "https://api.github.com/repos/Tomosuke0930/SimpleAuctionByMoralisWeb3/contents/SimpleAuction.sol?ref=fa1d6d7159248c2f4e90c238c0a82f508e00adf7",
+      "patch": "@@ -0,0 +1,83 @@\n+// SPDX-License-Identifier: GPL-2.0\n+pragma solidity >=0.7.0 < 0.9.0;\n+\n+contract SimpleAuction {\n+    // Parameters of the SimpleAuction\n+    address payable public beneficiary; //owner\n+    uint public auctionEndTime;\n+\n+    // Current state of the auctionEndTime\n+    address public highestBidder;\n+    uint public highestBid;\n+\n+    mapping(address => uint) public pendingReturns;\n+\n+    bool ended = false;\n+\n+    event HighestBidIncrease(address bidder, uint amount);\n+    event AucitionEnded(address winner, uint amount);\n+\n+    // bid:入札, biddingTime:入札できる時間(秒) beneficiary: オークション主催者,\n+    constructor(uint _biddingTime, address payable _beneficiary) {\n+        beneficiary = _beneficiary;\n+        auctionEndTime = block.timestamp + _biddingTime;\n+    }\n+\n+    //入札するための関数\n+    function bid() public payable {\n+        if(block.timestamp > auctionEndTime) {\n+            revert (\"The auction has already ended\");\n+        }\n+\n+        if(msg.value <= highestBid) {\n+            revert(\"There is already a higher or equal bid\");\n+        }\n+\n+        // この時点で、オークションで競り負けた人が存在する。\n+        // ここでmapping,pendingReturnsに直前までhighestBidderだった人のアドレスがmappingに追加。\n+        // よって入札に負けた人だけのアドレスと入札額が紐づいたmappingが作られる\n+        if(highestBid != 0) {\n+            pendingReturns[highestBidder] += highestBid;\n+        }\n+\n+        // ここでhighestBidder,highestBidが更新される\n+        highestBidder = msg.sender;\n+        highestBid = msg.value;\n+        emit HighestBidIncrease(msg.sender, msg.value);\n+    }\n+\n+    //引き出す関数\n+    function withdraw() public returns(bool) {\n+        uint amount = pendingReturns[msg.sender];\n+        if(amount > 0) {\n+            pendingReturns[msg.sender] = 0;\n+\n+            if(!payable(msg.sender).send(amount)) {\n+                pendingReturns[msg.sender] = amount;\n+                return false;\n+            }\n+        }\n+        return true;\n+    }\n+\n+    function auctionEnd() public {\n+        if(block.timestamp < auctionEndTime) {\n+            revert (\"The auction has not ended yet\");\n+        }\n+\n+        if(ended) {\n+            revert(\"The function auctionEnded has already been called\");\n+        }\n+\n+        ended = true;\n+        emit AucitionEnded(highestBidder, highestBid);\n+        \n+        beneficiary.transfer(highestBid);\n+    }\n+\n+    //+1\n+\n+    function getRestTime() public view returns(uint) {\n+        return auctionEndTime - block.timestamp;\n+    }\n+}\n\\ No newline at end of file"
+    }
+  ]
+}
